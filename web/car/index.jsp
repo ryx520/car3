@@ -11,13 +11,17 @@
     <title>Document</title>
     <style>
         body{
-            background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593956857591&di=ff5dcaec544532c3a4811b5bdd2990bb&imgtype=0&src=http%3A%2F%2Fpic.5577.com%2Fup%2F2014-8%2F201487113353.jpg");
-            background-size: 80%,80%;
+            background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594383661753&di=c350845c65b1350af32679b8e122019f&imgtype=0&src=http%3A%2F%2Fpx.thea.cn%2FPublic%2FUpload%2FUploadfiles%2Fimage%2F20181220%2F20181220164252_66602.jpg");
+           background-size:100%;
+            height: auto;
             background-repeat: no-repeat;
         }
         .center
         {
             text-align:center;
+        }
+        h1{
+            text-shadow: 5px 5px 5px blueviolet;
         }
         ul {
             list-style-type: none;
@@ -52,7 +56,7 @@
 <%
     String name=(String)session.getAttribute("username");
     if (name==null){
-        out.println("您还没有登录,请<a href='login.html'>登录</a>");
+       out.println("您还没有登录,请<a  href='login.html'>登录</a>");
     }else {%>
 <ul>
 

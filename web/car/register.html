@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎登陆</title>
+    <style>
+        .center
+        {
+            text-align:center;
+        }
+        h2
+        {
+            text-shadow: 5px 5px 5px #FF0000;
+        }
+        body
+        {
+            background:url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1314227987,945526573&fm=11&gp=0.jpg");
+            background-size:100%;
+            height: 800px;
+            background-repeat:no-repeat;
+        }
+    </style>
+</head>
+<h2 class="center">注册账号</h2>
+<body>
+<div align="middle">
+
+<form action="register.jsp" method="post">
+    输入账号:<input type="text" name="username"><br>
+    设置密码:<input type="password" name="password1"><br>
+    重复密码:<input type="password" name="password2"><br>
+    <input class="center" type="reset" value="重置">
+    <input class="center" type="submit" value="注册"><br>
+
+</form>
+</div>
+已有账号?<a href="login.html">请登录</a>
+</body>
+</html>
